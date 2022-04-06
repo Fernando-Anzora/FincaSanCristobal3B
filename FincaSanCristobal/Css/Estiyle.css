@@ -1,0 +1,248 @@
+/* Estilos del Nav */
+
+.Nav {
+    width: 100%;
+	background: #85a33a;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+}
+
+.Nav #Bar , .Nav #Act {
+	color: #fffeff;
+	display: inline-block;
+	padding: 2.1vh;
+    font-size: 2.2vw;
+	width: 100%;
+	text-align: center;
+	transition: .3s ease-out all;
+}
+
+.Nav #Bar:hover {
+	background: #fffeff;
+    border-radius: 5px;
+	color: black;
+	text-decoration: none;
+}
+.Nav #Act{
+	background: #fffeff;
+    border-radius: 5px;
+	color: #85a33a;
+	text-decoration: none;
+}
+
+
+.Cont {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+/*Estilo de la imgs parallax*/
+.Cont-Img{
+    width: 100%;
+    height: 85vh;
+    background-image: url(../Img/FincaCristobal.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Cont-Img2{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../Img/Img_2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Cont-Img3{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../Img/Img_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Estilo del Cubo*/
+.Contenido{
+    width: 100%;
+}
+
+.Cubo {
+	margin: 0px 20px 20px 20px;
+	background: #1a1d1e;
+    width: 14%;
+    height: 100%;
+	padding: 23px;
+	border-radius: 3px;
+    position: sticky;
+    top: 85px;  
+    float: left;
+}
+
+.Cubo .titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 1.8vw;
+	margin-bottom: 20px;
+    text-align: center;
+	color: white;
+    
+}
+
+.Cubo .indice a {
+	display: block;
+	padding: 1.8vw;
+	color: white;
+    text-align: center;
+    transition: .2s ease-out all;
+}
+.Cubo .indice a:hover{
+    color: #85a33a;
+    background: #D3D0CD;
+    border-radius: 3px;
+}
+/*Estilo del interior*/
+.C2{
+    margin: 20px 20px 20px 0px;
+    background: white;
+    width: 80%;
+    border-radius: 3px;
+    position: relative;
+    margin-left: auto;
+}
+.C1{
+    margin: 20px 20px 20px 0px;
+    background: white;
+    width: 80%;
+    border-radius: 3px;
+    position: relative;
+    margin: auto;
+}
+.Contenido {
+	min-height: 100vh;
+}
+
+.Contenido .C1 p , .Contenido .C2 p{
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+
+.Contenido .C1 .titulo , .Contenido .C2 .titulo {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+    text-align: center;
+	padding-top: 40px;
+}
+
+
+.post{
+    margin: 20px 20px 20px 20px;
+    padding-top: 10vh;
+    width: 95%;
+}
+
+
+/*Mapa del contenido*/
+.ubic{
+    border:0;
+    width: 100%;
+    height: 80vh;
+}
+/*Publicaciones*/
+
+.face{
+    width: 70vw;
+    height: 80vh;
+    border:none;
+    overflow:hidden;
+}
+/* IMG del contenido*/
+.Img_Post{
+    width: 95%;
+    height: 450px;
+    border-radius: 5px;
+}
+.img_plat{
+    width: 95%;
+    height: 1398px;
+    border-radius: 5px;
+}
+
+/* Tabla */
+table{
+    width: 100%;
+    background: #1a1d1e;
+    border-radius: 20px;
+    margin: auto;
+     
+}
+table , th , td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+
+}
+th , td{
+    padding: 2vw;
+    text-align: center;
+}
+
+/*--------------Estilos Adaptados a dispositivos mobiles ----------*/
+@media (max-width:1000px){
+.C2{
+    margin: auto;
+    width: 90%;
+}
+.post{
+    padding-top: 16.2vh;
+    width: 90%;
+    
+    }
+.Cubo {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+	padding: 23px;
+    top: 8vh;  
+    margin: auto;
+    text-align: center;
+    
+}
+.Cubo .indice a {
+	display: inline-block;
+    width: 24%;
+    font-size:  3.5vw;
+}
+table{
+    width: 90%;
+}    
+.ubic{
+        width: 80%;
+}
+.Img_Post{
+   width: 80%;
+    height: 200px;
+} 
+    
+.Nav #Bar , .Nav #Act{
+       padding: 3vh;
+    font-size: 3.2vw; 
+}
+    
+.Cubo .titulo {
+	font-size: 0vw;
+	margin-bottom: 0px;    
+}
+    .Siguenos{
+        font-size: 0;
+    }    
+
+    
+}
